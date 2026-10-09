@@ -1,0 +1,9 @@
+{
+  "name": "Skill Tech Software Solutions Pvt Ltd",
+  "short_name": "Skill Tech",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b1728",
+  "icons": []
+}

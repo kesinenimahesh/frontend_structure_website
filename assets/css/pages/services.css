@@ -1,0 +1,7 @@
+.detailed-services { display: grid; }
+.detail-service { display: grid; grid-template-columns: 60px minmax(0,1fr) 100px; gap: 24px; align-items: start; padding: 42px 0; border-bottom: 1px solid var(--color-border); scroll-margin-top: 100px; }
+.detail-index { color: var(--color-primary-dark); font-size: 13px; font-weight: 900; }
+.detail-service h2 { margin: 10px 0 14px; font-size: clamp(1.7rem,3vw,2.5rem); }
+.detail-service p:not(.eyebrow) { max-width: 700px; }
+.detail-service ul { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px 22px; margin-top: 20px; padding-left: 18px; color: var(--color-muted); font-size: 12px; }
+.detail-symbol { display: grid; place-items: center; width: 80px; height: 80px; border-radius: 22px; background: #e6fbf8; color: var(--color-primary-dark); font-size: 34px; }

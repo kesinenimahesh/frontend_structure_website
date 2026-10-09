@@ -1,0 +1,13 @@
+html { scroll-padding-top: 88px; }
+body { font-family: var(--font-family); color: var(--color-text); background: var(--color-background); line-height: 1.65; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; }
+p { color: var(--color-muted); }
+h1, h2, h3 { color: var(--color-navy); line-height: 1.12; letter-spacing: -0.035em; }
+h1 { font-size: clamp(2.7rem, 6vw, 5rem); font-weight: 760; }
+h2 { font-size: clamp(2rem, 4vw, 3.25rem); font-weight: 740; }
+h3 { font-size: 1.28rem; }
+h1 span, h2 span { color: var(--color-primary-dark); }
+::selection { color: var(--color-navy); background: rgba(18, 199, 181, .25); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+:focus-visible { outline: 3px solid var(--color-primary-dark); outline-offset: 3px; }
